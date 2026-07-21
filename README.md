@@ -30,10 +30,12 @@ First step is to make sure your issue is compatible with this fix.
 	 - If any protocols you intend to use are size 0, then this also applies
 
 If your shares still exist and the `._share/.conf` are corrupted it's good news, this method should recover access to these shares via sharing protocols and webgui access.
+
 If you have space on the NAS or elsewhere it is worth backing up the shares before continuing.
 
 # How to fix:
 You can fix the share config files manually or use the script provided.
+
 Please have a look at the script and make sure you understand what it does.
 
 **To fix manually:**
@@ -44,6 +46,7 @@ Please have a look at the script and make sure you understand what it does.
 
 **Script**
 The script automates the above and creates a backup of the share configs at `._share/.BROKENSHARECONFIG.old`
+
 If run multiple times it will increment the backup.
 Run the script with:
 ```bash
