@@ -38,14 +38,14 @@ You can fix the share config files manually or use the script provided.
 
 Please have a look at the script and make sure you understand what it does.
 
-**To fix manually:**
+## To fix manually:
 
 - Backup the broken configuration
 - Copy the `.conf` files from a working share (make a new one)
 	- `._share/WORKINGSHARE/*.conf` to `._share/BROKENSHARE/`
 - Reboot the NAS
 
-**Using the script**
+## Using the script
 
 The script automates the above and creates a backup of the share configs at `._share/.BROKENSHARECONFIG.old`
 
