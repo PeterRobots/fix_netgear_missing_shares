@@ -1,5 +1,9 @@
 # How to fix missing shares on Netgear Readynas 6.0
 This guide is for missing shares due to corruption of the share config files.
+Tested on:
+- Readynas 6.10.10
+- Debian 8
+- Readynas 214
 
 # What you need: 
 - The name of the data volume containing all the shares (check the webgui and shares, it's on the left in big text)
