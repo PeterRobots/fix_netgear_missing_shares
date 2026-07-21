@@ -48,6 +48,7 @@ Please have a look at the script and make sure you understand what it does.
 The script automates the above and creates a backup of the share configs at `._share/.BROKENSHARECONFIG.old`
 
 If run multiple times it will increment the backup.
+
 **Run the script with:**
 ```bash
 cd DATAVOLUMEPATH
