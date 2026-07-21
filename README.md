@@ -39,17 +39,17 @@ You can fix the share config files manually or use the script provided.
 Please have a look at the script and make sure you understand what it does.
 
 **To fix manually:**
+
 - Backup the broken configuration
 - Copy the `.conf` files from a working share (make a new one)
 	- `._share/WORKINGSHARE/*.conf` to `._share/BROKENSHARE/`
 - Reboot the NAS
 
-**Script**
+**Using the script**
+
 The script automates the above and creates a backup of the share configs at `._share/.BROKENSHARECONFIG.old`
 
 If run multiple times it will increment the backup.
-
-**Run the script with:**
 ```bash
 cd DATAVOLUMEPATH
 wget https://github.com/PeterRobots/fix_netgear_missing_shares/blob/main/fix_nas_shares.sh
