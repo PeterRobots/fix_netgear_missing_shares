@@ -47,6 +47,7 @@ cd DATAVOLUMEPATH
 wget https://github.com/PeterRobots/fix_netgear_missing_shares/blob/main/fix_nas_shares.sh
 sudo chmod +x fix_nas_shares.sh
 sudo ./fix_nas_shares.sh -i /path/to/working/share -o /path/to/corrupt/share
+sudo reboot
 ```
 An example of script output:
 ![Output example](https://github.com/PeterRobots/fix_netgear_missing_shares/blob/main/script_example_output.png?raw=true)
@@ -56,3 +57,7 @@ An example of script output:
 - My working share folder is `Documents`
 - If you SSH in as `root` as I have, exclude the `sudo` commands above
 	- `root` is not necessary and you can ssh in as an user with admin privileges
+
+**Make sure to reboot after changing the shares.**
+
+I hope this helped anyone else stuck for how to fix.
