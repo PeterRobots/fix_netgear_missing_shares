@@ -1,5 +1,4 @@
-# fix_netgear_missing_shares
-How to fix missing shares on Netgear Readynas 6.0
+# How to fix missing shares on Netgear Readynas 6.0
 This guide is for missing shares due to corruption of the share config files.
 
 # What you need: 
