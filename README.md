@@ -3,7 +3,7 @@ How to fix missing shares on Netgear Readynas 6.0
 This guide is for missing shares due to corruption of the share config files.
 
 What you need: 
-- The name of the data volume containing all the shares (check the webgui and shares, it's on the left in big text)![[netgear_share.png.png]]
+- The name of the data volume containing all the shares (check the webgui and shares, it's on the left in big text)![[netgear_share.png]]
 - SSH access to your NAS 
 	- https://kb.netgear.com/30068/ReadyNAS-OS-6-SSH-access-support-and-configuration-guides
 - A new share with permissions, config and protocols you want to copy from
