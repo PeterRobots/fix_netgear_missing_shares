@@ -52,7 +52,7 @@ The script automates the above and creates a backup of the share configs at `._s
 If run multiple times it will increment the backup.
 ```bash
 cd /usr/local/sbin
-wget https://github.com/PeterRobots/fix_netgear_missing_shares/blob/main/fix_nas_shares.sh
+sudo wget https://github.com/PeterRobots/fix_netgear_missing_shares/blob/main/fix_nas_shares.sh
 sudo chmod +x fix_nas_shares.sh
 cd ~/DATAVOLUMEPATH
 sudo ./usr/local/sbin/fix_nas_shares.sh -i /path/to/working/share -o /path/to/corrupt/share
